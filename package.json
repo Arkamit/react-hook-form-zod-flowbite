@@ -1,5 +1,5 @@
 {
-  "name": "flowbite-react-template-vite",
+  "name": "flowbite-react-template-vite-react-hook-form-zod",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,12 @@
     "format:check": "prettier . --check"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "flowbite-react": "^0.12.4",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.64.0",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
